@@ -1,0 +1,727 @@
+nav {
+    display:flex;
+    position: sticky;
+    top: 0;
+   background-color: white;
+    position: -webkit-sticky;
+    padding-bottom: 0%;
+    box-shadow: 0px 1px 0px 0px #f9f8f8;
+}
+h1{
+    color: #ABABAB;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    margin-right: 15em;
+    font-weight:500;
+    margin-bottom: -1em;
+    padding-bottom: 1.8em;
+    margin-top: .2em;
+    font-weight: 540;
+
+}
+h1 span{
+    color: #58C0A6;
+}
+.top{
+    margin-top:-1.5em;
+    margin-left: 15em;
+    margin-right: 11em;
+}
+h1 img{
+    width: 28px;
+    margin-right: -.1em;
+    margin-top: .1em;
+}
+nav p{
+   text-align: right;
+   margin-left: .5em;
+   margin-top: 1.4em;
+   letter-spacing: .02em;
+    font-size: .95rem;
+    color: #ABABAB;
+    font-family:  Helvetica neue, roboto;
+    font-weight: 300 ;
+    padding-bottom: 0;
+
+}
+nav p:hover{
+    color: #5AC0A6;
+    cursor: pointer;
+}
+.about{
+    color:#5AC0A6;
+}
+.imgl{
+    display: flex;
+    width: 40px;
+    margin-top:3em;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+h2{
+    color:#5AC0A6;
+    font-weight:lighter;
+    font-family: Helvetica neue, roboto;
+    text-align: center;
+    font-size: 2.3rem;
+    letter-spacing: .02em;
+    font-weight: 300;
+    margin-top: 1em;
+
+}
+.pat{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    font-size: 1rem;
+    margin-left: 1em;
+    margin-right: 1em; 
+    margin-top: 1em;   
+    line-height: 1.7em;
+    font-family:Helvetica neue, roboto;
+    margin-bottom: 4em;
+}
+.for{
+    margin-right: 1em;
+}
+.box{
+    display: grid;
+    grid-template-areas: "pats doc clin";
+    gap: 1.5em;
+    color: white;
+    font-family: Helvetica neue, roboto;
+    font-size: 1.6rem;
+    font-weight: lighter;
+   
+}
+.box span{
+    display: block;
+    margin-top: .6em;
+    margin-bottom: .3em;
+    font-size: 1.5rem;
+    letter-spacing: .05em;
+    font-weight: 400;
+
+
+}
+.patient{
+    border: 1px none black;
+    grid-area: pats;
+    border-radius: 3%;
+    padding-top: 1.5em;
+    padding-right: .5em;
+    padding-left: 1.5em;
+    padding-bottom: 0em;
+    background-color:#5CC9B2;
+    text-align: left;
+    letter-spacing: .05em;
+}
+
+.doctors{
+    border: 1px none black;
+    grid-area: doc;
+    border-radius: 3%;
+    padding-top: 1.5em;
+    padding-right:.5em;
+    padding-left: 1.5em;
+    padding-bottom: 0em;
+    background-color:#618EDC;
+    text-align: left;
+    letter-spacing: .05em;
+}
+.clinics{
+    border: 1px none black;
+    grid-area: clin;
+    border-radius: 3%;
+    padding-top: 1.5em;
+    padding-right:.5em;
+    padding-left: 1.5em;
+    padding-bottom: 0em;
+    background-color:#343D48;
+    text-align: left;
+    letter-spacing: .05em;
+}
+#country{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border: .2px none red;
+    background-color: #5CC9B2;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    font-weight: lighter;
+}
+#try{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border: .2px none red;
+    background-color: #618EDC;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    font-weight: lighter;
+}
+#cou{
+    margin-top: 3em;
+    margin-bottom: em;
+    border: .2px none red;
+    background-color: #343D48;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    font-weight: lighter;
+}
+#yam{
+    margin-top:em;
+    margin-bottom: 3em;
+    border: .2px none red;
+    background-color: #343D48;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    font-weight: lighter;
+}
+i{
+    margin-bottom: 0em;
+}
+.yurr{
+    display: flex;
+}
+.pro{
+    margin-right: 18em;
+    font-size: 2rem;
+    color:#5AC0A6;
+    font-family: Helvetica neue, roboto;
+    font-weight: lighter;
+    text-align: left;
+}
+.book {
+  display:grid;
+  grid-template-areas: "leak doc mio dok"
+                        "nam gipo clin jame";
+    margin-left:7em;
+    margin-right: 2em;
+    font-size:1.2rem;
+    color:#ABABAB;
+}
+
+#b{
+    position: relative;
+    margin-left: -1em;
+    margin-top: .15em;
+}
+.leak:hover{
+    color:#58C0A6;
+    cursor: pointer;
+}
+.leak{
+    grid-area: leak;
+    margin-left: -30em;
+    margin-bottom: 10em;
+    margin-top: 2em;
+    position: absolute;
+}
+#ba{
+    position: relative;
+    margin-top: .15em;
+    margin-left: -1em;
+   
+}
+.doc:hover{
+    color:#58C0A6;
+    cursor: pointer;
+}
+.doc{
+    grid-area:doc;
+    margin-right: em;
+    margin-left: -21em;
+    margin-bottom: 10em;
+    margin-top: 2em;
+    position: absolute;
+    
+}
+#bar{
+    position: relative;
+    margin-top: .15em;
+    margin-left: -1em;
+}
+.mio:hover{
+    color:#58C0A6;
+    cursor: pointer;
+}
+.mio{
+    grid-area:mio;
+    margin-left: -14em;;
+    margin-bottom: 10em;
+    margin-top: 2em;
+    position: absolute;
+}
+#barr{
+    position: relative;
+    margin-top: .15em;
+    margin-left: -1em;
+}
+.vimi:hover{
+    color:#58C0A6;
+    cursor: pointer;
+}
+.vimi{
+    grid-area: dok;
+    margin-bottom: 10em;
+    margin-left: -7em;
+    margin-top: 2em;
+    position: absolute;
+}
+.kar:hover{
+    color:#58C0A6;
+    cursor: pointer;
+}
+#y{
+    position: relative;
+    margin-top: .15em;
+    margin-left: -1em;
+}
+.kar{
+    grid-area:nam;
+    margin-left: -30em;
+    margin-top:5em;
+    position: absolute;
+
+}
+#ye{
+    position: relative;
+    margin-top: .15em;
+    margin-left: -1em;
+}
+.gip:hover{
+    color:#58C0A6;
+    cursor: pointer;
+}
+.gip{
+    grid-area: gipo;
+    margin-left: -21em;
+    margin-top:5em;
+    position: absolute;
+}
+#yes{
+    position: relative;
+    margin-top: .15em;
+    margin-left: -1em;
+}
+.clin:hover{
+    color:#58C0A6;
+    cursor: pointer;
+}
+.clin{
+    grid-area: clin;
+    margin-left: -14em;
+    margin-top:5em;
+    position: absolute;
+}
+#yess{
+    position: relative;
+    margin-top: .15em;
+    margin-left: -1em;
+}
+.jam:hover{
+    color:#58C0A6;
+    cursor: pointer;
+}
+.jam{
+    grid-area: jame;
+    margin-left:-7em;
+    margin-top:5em;
+    position: absolute;
+}
+.book img{
+    width:15px;
+    display:inline-flex;
+    color: #ABABAB;
+    float:left;
+    
+}
+.bott{
+    background:url('docc.png');
+    background-color: hsl(180, 55%, 92%);
+    background-position: 9em 18em;
+    padding-top:em;
+    display: flex;
+    background-repeat: no-repeat;
+    padding-left:15em; 
+    padding-right: 10em;
+    padding-bottom: 2em;;
+}
+.plan{
+    color:rgb(80, 74, 74);
+    font-weight: 200;
+    font-family:  Helvetica neue, roboto;
+    margin-right: -5em;
+    margin-left: 1em;
+    letter-spacing: 0em;
+    margin-bottom: em;
+    text-align: left;
+    
+}
+.plan h3{
+    color:#5CC9B2;
+    font-weight: 300;
+    letter-spacing: .1em;
+    font-size: 2rem;
+    margin-top: 2em;
+
+}
+.plan p{
+    font-size: .8rem;
+    font-weight: 300;
+}
+.gri{
+    display: grid;
+    grid-template-areas: "lead appo"
+                            "patie act";
+    text-align: center;
+    margin-left: 2em;
+    color: grey;
+    font-size: .8rem;
+    padding-right: 0em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+   grid-template-rows: auto auto 1fr;
+}
+
+.lead{
+    border: 1px solid none;
+    grid-area: lead;
+    background-color: white;
+    font-family: Helvetica neue, roboto;
+   margin-left: 12em;
+   margin-right: -9em;
+   padding-left:1em;
+   padding-right: 1em;
+   padding-bottom: 3em;
+   border-radius: 3%;
+   margin-bottom: -2em;
+   
+  
+}
+.app{
+    grid-area:appo;
+    background-color: white;
+    font-family: Helvetica neue, roboto;
+    margin-left: 11em;
+    margin-right:  1.5em;
+    margin-top: -2em;
+    padding-left:1em;
+   padding-right: 1em;
+   padding-bottom: 1em;
+   border-radius: 3%;
+
+
+}
+.patients{
+    grid-area:patie;
+    background-color: white;
+    font-family: Helvetica neue, roboto;
+    margin-left: 12em;
+   margin-right: -9em;
+    padding-left:1em;
+    padding-right: 1em;
+   padding-bottom: 5em;
+   border-radius: 3%;
+   margin-top: 4em;
+   margin-bottom: -2em;
+    
+}
+.act{
+    grid-area:act;
+    background-color: white;
+    font-family: Helvetica neue, roboto;
+    margin-left: 11em;
+    margin-right: 1.5em;
+    padding-left:1em;
+   padding-right: 1em;
+   padding-bottom: 6em;
+   border-radius: 3%;
+}
+.gri span{
+    color:#5CC9B2;
+    font-family: Helvetica neue, roboto; 
+    font-weight: 300;
+    font-size: 1.5rem;
+    display:block;
+    padding-bottom: .6em;
+    margin-top: .3em;
+    letter-spacing: .1em;
+    
+
+}
+.gri i{
+    color:#5CC9B2;
+    display: block;
+    font-size: 2rem;
+    padding-top: 1.2em;
+}
+.imp{
+    text-align: center;
+    margin-right: -1em;
+    margin-left:-3em;
+    color: grey;
+}
+.imp h3{
+    color:#5AC0A6;
+    font-family: Helvetica neue, roboto;
+    font-weight: 200;
+    font-size: 1.8rem;
+    letter-spacing: .08em;
+}
+.imp h3 span{
+    display:block;
+    margin-right: 10em;
+    margin-left:10em;
+}
+.imp p{
+    margin-top: -1em;
+    font-weight: 100;
+    margin-right: 15em;
+    margin-left:15em;
+    margin-bottom: 3em;
+    line-height: 1.5em;
+}
+.photo{
+    display:grid;
+    grid-template-areas: "warr barc munn"
+                            "ist rome bolo"
+                            "cur mex h ";
+    gap: 16px;
+ 
+  margin-right: ;
+  color: grey;
+  font-size: 1.2rem;
+}           
+.war{
+    grid-area: warr;
+    border: .1em solid #F7F7F7;
+    padding-bottom: 2em;
+    background-color: white;
+    padding-right: 0;
+    border-radius:.3em;
+
+ }
+ .war:hover{
+    box-shadow: 0px 5px 5px 3px #908b8b;
+    cursor: pointer;
+    transform: translateY(2px)
+    
+ }
+.bar{
+    grid-area: barc;
+    padding-bottom: 2em;
+    background-color: white;
+    padding-right: 0;
+    border-radius:.3em;
+    border: .1em solid #F7F7F7;
+}
+.bar:hover{
+    box-shadow: 0px 5px 5px 3px #908b8b;
+    cursor: pointer;
+    transform: translateY(2px)
+    
+ }
+.mun{
+    grid-area:  munn;
+    padding-bottom: 2em;
+    background-color: white;
+    padding-right: 0;
+    border-radius:.3em;
+    border: .1em solid #F7F7F7;
+}
+.mun:hover{
+    box-shadow: 0px 5px 5px 3px #908b8b;
+    cursor: pointer;
+    transform: translateY(2px)
+    
+ }
+ .ist:hover{
+    box-shadow: 0px 5px 5px 3px #908b8b;
+    cursor: pointer;
+    transform: translateY(2px)
+    
+ }
+.ist{
+    grid-area: ist;
+    padding-bottom: 2em;
+    background-color: white;
+    padding-right: 0;
+    border-radius:.3em;
+    border: .1em solid #F7F7F7;
+}
+.rom:hover{
+    box-shadow: 0px 5px 5px 3px #908b8b;
+    cursor: pointer;
+    transform: translateY(2px)
+    
+ }
+.rom{
+    grid-area: rome;
+    padding-bottom: 2em;
+    background-color: white;
+    padding-right: 0;
+    border-radius:.3em;
+    border: .1em solid #F7F7F7;
+}
+.bolo:hover{
+    box-shadow: 0px 5px 5px 3px #908b8b;
+    cursor: pointer;
+    transform: translateY(2px)
+    
+ }
+.bolo{
+    grid-area: bolo;
+    padding-bottom: 2em;
+    background-color: white;
+    padding-right: 0;
+    border-radius:.3em;
+    border: .1em solid #F7F7F7;
+}
+.cur:hover{
+    box-shadow: 0px 5px 5px 3px #908b8b;
+    cursor: pointer;
+    transform: translateY(2px)
+    
+ }
+.cur{
+    grid-area: cur;
+    padding-bottom: 2em;
+    background-color: white;
+    padding-right: 0;
+    border-radius:.3em;
+    border: .1em solid #F7F7F7;
+}
+.mex:hover{
+    box-shadow: 0px 5px 5px 3px #908b8b;
+    cursor: pointer;
+    transform: translateY(2px)
+    
+ }
+.mex{
+    grid-area: mex;
+    padding-bottom: 2em;
+    background-color: white;
+    padding-right: 0;
+    border-radius:.3em;
+    ;
+}
+.photo img{
+    display: block;
+    width: 330px;
+    border-radius: .3em;
+    padding-bottom: 1em;
+    
+}
+#open{
+    background-color: #4F80D8;
+    margin-left: 15em;
+    margin-right: 1em;
+    margin-bottom: -4em;
+    padding:1.3em;
+    border: .5px none none;
+    color: white;
+    border-style: none;
+    border-radius: .4em;
+    font-family:Helvetica neue, roboto;
+    font-size: .5rem;
+    font-weight: 700;
+    letter-spacing: .08em;
+    display: inline;
+}
+.war span{
+    margin-left:1em;
+}
+.bar span{
+    margin-left: 1em;
+}
+.mun span{
+    margin-left: 1em;
+    margin-right:1em ;
+}
+.ist span{
+    margin-left: 1em;
+}
+.rom span{
+    margin-left: 1em;
+    margin-right:2em ;
+}
+.bolo span{
+    margin-left: 1em;
+    margin-right:1em ;
+}
+.cur span{
+    margin-left: 1em;
+}
+.mex span{
+    margin-left: 1em;
+}
+
+.gift{
+    margin-left: 15em;
+    margin-right: 15em;
+}
+.sound{
+    margin-left: 13em;
+    margin-right: 13em;
+    margin-top: 2em;
+    margin-bottom: 6em;
+}
+.sound h3{
+    font-family: Helvetica neue, roboto;
+    font-weight:200;
+    font-size: 1.8rem;
+    margin-bottom: 0.5em;
+    letter-spacing: .07em;
+    text-align: center;
+}
+#ada{
+    background-color: #4F80D8;
+    padding: 1em;
+    margin-left:13em;
+    margin-right: 7em;
+    border-style: hidden;
+    color: white;
+    border-radius: .3em;
+    font-size: .8rem;
+    
+}
+#ada:hover{
+    background-color: #143061;
+}
+hr{
+    margin-right: -16em;
+    margin-left: -16em;
+    opacity: 0.1;
+    
+}
+.bellow{
+    color: grey;
+    font-size: .8rem;
+    font-family:  Helvetica neue, roboto;
+    margin-left: 8em;
+    margin-top: 2em;
+    font-weight: 200;
+}
+.below{
+    color: grey;
+    font-size: .8rem;
+    font-family:  Helvetica neue, roboto;
+    margin-left: 4em;
+    margin-top: 2em;
+    font-weight: 200;
+}
+.bad{
+    color: grey;
+    font-size: .8rem;
+    font-family:  Helvetica neue, roboto;
+    margin-left: 30em;
+
+    margin-bottom: 2em;;
+    font-weight: 200;
+}
